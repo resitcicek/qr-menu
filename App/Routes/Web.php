@@ -8,6 +8,7 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/:username', 'Home@Menu')->name('menu');
+Route::get('/:username/contact', 'Home@Menu')->name('contact');
 Route::get('/:username/category/:id', 'Home@Category')->name('category');
 
 /** Admin Pages */
