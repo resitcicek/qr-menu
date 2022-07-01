@@ -1,0 +1,3 @@
+RewriteEngine On
+DirectoryIndex public/index.php public/index.html
+RewriteRule ^(.*?)$ Public/index.php

@@ -1,0 +1,22 @@
+{
+    "name": "reschit/framework",
+    "description": "PHP Framework",
+    "type": "framework",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "jenssegers/blade": "^1.4",
+        "izniburak/pdox": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reschit\\": "./"
+        },
+        "files": ["App/Core/Helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Reschit",
+            "email": "me@resitcicek.com"
+        }
+    ]
+}
